@@ -5,4 +5,4 @@ WORKDIR /code
 ADD . /code/
 RUN pip install pydicom pynetdicom
 
-CMD ["python", "/code/scp_scu.py"]
+CMD ["python", "/code/scp.py"]
